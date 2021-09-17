@@ -1,0 +1,35 @@
+
+    body{
+        background:url("background.jpg");
+    }
+    p{
+        font-family:Helvetica;
+        color:black;
+        text-align: justify;
+        margin:auto;
+        line-height:1.2;
+    }
+    p:first-letter{
+         font-size:200%;
+    }            
+    h1{
+        color:rgb(70,43,43);
+        font-weight:bold;
+        font-style: oblique;
+        text-align: center;
+    }
+    h2{
+        color:rgb(70,43,43);
+        font-size:100%;
+        font-style: oblique;
+        font-weight:bold;
+        text-align: center;
+    }
+    .container{
+        margin: auto;
+        width:75%;
+        column-count: 2;
+        border:5px solid rgb(111,41,97);
+        padding: 10px 0 10px 4px;
+        
+    }
